@@ -1,0 +1,83 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.container{
+    margin: 50px auto;
+    width: 80%;
+    position: relative;
+}
+
+.btn{
+    background: darkgreen;
+    display: inline-block;
+    margin-top: 20px;
+    color: #ffff;
+    padding: .2em .75em;
+    border-radius: 5px;
+    border: none;
+    
+}
+.btn:hover{
+    cursor: pointer;
+}
+.addBookForm{
+    display: none;
+    position: absolute;
+    left: 35%;
+    transform: translate(-50%, -50%);
+
+    background: #b6b8ff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.addBookForm div{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+table, th, td {
+    border: 1px solid;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.btn-read{
+    background: orange;
+    padding: .2em .75em;
+    border: none;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.25);;
+    border-radius: 5px;
+}
+.readStatus-read{
+    background-color: green;
+    color: #ffffff;
+}
+
+
+.btn-delete{
+    background: red;
+    text-align: center;
+    padding: .2em .75em;
+    border: none;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.25);
+    border-radius: 5px;
+}
+
+.readStatus,
+.deleteBook{
+    text-align: center;
+    padding: .3em 0;
+}

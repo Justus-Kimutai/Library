@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <table class="library_table">
+
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>status</th>
+                    <th>Danger!</th>
+                </tr>
+            </thead>
+           
+            <tbody>
+                <!-- <tr>
+                    <td>Blossoms</td>
+                    <td>Ole Kulet</td>
+                    <td>247</td>
+                    <td class="readStatus">Not read</td>
+                    <td class="deleteBook">Delete</td>
+                </tr> -->
+            </tbody>
+
+        </table>
+        
+
+        <div class="addBookbtn btn">Add</div>
+
+        <div class="addBookForm">
+
+            <p class="form-title">Please fill:</p>
+            <div>
+                <label for="bookTitle-input">Insert Book title</label>
+                <input type="text" id="bookTitle-input">
+            </div>
+            <div>
+                <label for="">Insert The Author</label>
+                <input type="text" id="bookAuthor-input">
+            </div>
+            <div>
+                <label for="">Enter the pages</label>
+                <input type="text" id="bookPages-input">
+            </div>
+
+            <button class="btn SubmitBookbtn">Submit</button>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
