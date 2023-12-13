@@ -108,5 +108,3 @@ submitBookBtn.addEventListener('click',()=>{
         addBookForm.style.display = "none"
     }
 })
-
-
